@@ -86,7 +86,6 @@ Ray.game "Avoid the Obstacles" do
     end
     render do |win|
       if @game_over
-
         win.draw text("YOU LOST", :at => [180,180], :size => 60)
         #win.draw text("Score:" + score_numcon.to_s, :at => [220,300], :size => 20)
       elsif score_num < 200
